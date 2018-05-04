@@ -82,3 +82,21 @@ urlpatterns = [
 ]
 ```
 
+INSTALL BOOTSTRAP:
+
+``` sudo pip3 install django_forms_bootstrap ```
+
+Updated Installed_apps:
+
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'django_forms_bootstrap',
+    'accounts',
+]
+```
